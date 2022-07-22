@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TagComponent">
+        <attr name="message" format="string" />
+        <attr name="isIcon" format="boolean" />
+        <attr name="tagType">
+            <enum name="simple" value="0" />
+            <enum name="icon" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>
